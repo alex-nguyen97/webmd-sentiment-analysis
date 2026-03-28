@@ -1,0 +1,42 @@
+# WebMD drug review / sentiment research — install with:
+#   pip install -r requirements.txt
+# or: npm run install-deps
+
+# Core data & notebooks
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+jupyter
+ipykernel
+ipython
+
+# Visualization
+altair>=5.0
+
+# Classical ML & text
+scikit-learn>=1.3
+nltk>=3.8
+vaderSentiment
+imbalanced-learn
+
+# Deep learning — TensorFlow (LSTM etc. in drug-analysis.ipynb)
+tensorflow>=2.15
+
+# Transformers / Roberta (drug-analysis-roberta.ipynb, parts of drug-analysis.ipynb)
+torch>=2.0
+transformers>=4.40
+datasets>=2.14
+accelerate>=0.26
+tqdm>=4.65
+safetensors
+
+# Dataset download
+kagglehub>=0.2
+
+# Optional: WebMD scraper (drug-scraping.py)
+scrapy>=2.11
+
+# Optional: spaCy pipeline used in some environments
+# After install: python -m spacy download en_core_web_sm
+spacy>=3.7
