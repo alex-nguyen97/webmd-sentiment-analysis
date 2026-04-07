@@ -50,5 +50,5 @@ python -m spacy download en_core_web_sm
 ## PyTorch note
 
 `torch` is installed from PyPI. For GPU-specific builds (CUDA), see [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/) and adjust your install command if needed.
-# webmd-sentiment-analysis
+
 # webmd-sentiment-analysis
